@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Estudo musical</title>
+</head>
+<body>
+  <div class="intro py-3 text-center">
+    <div class="container">
+      <h2 class="text-light display-3 my-4">Estudo musical</h2>
+    </div>
+  </div>
+
+  <div class="pop-wrapper">
+    <div class="popup">
+      <div class="popup-content">
+        <h2>Você acertou</h2>
+        <p class="result"></p>
+        <button class="popup-button">Tentar novamente</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="quiz py-4">
+    <div class="container">
+      <h2 class="my-5 text-white">Vamos ver o quanto você sabe sobre musica?</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. O que é música?</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="A" checked>
+              Combinação harmoniosa e expressiva de sons.
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="B">
+              Divisão ordenada do tempo, combinando sons curtos, longos e silêncio.
+            </label> 
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Quais são os elementos mais importantes da música?</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="A" checked>
+              Melodia, timbre e ritmo
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="B">
+              Melodia, harmonia e ritmo
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. Quais são as 4 propriedades do som?</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="A" checked>
+              Timbre, duração, intensidade e altura.
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="B">
+              Timbre, duração, intensidade e harmonia
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. Qual a propriedade do som que nos faz reconhecer a origem dele?</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="A" checked>
+              Altura
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="B">
+              Timbre
+            </label>
+          </div>
+        </div>
+        
+        <div class="text-center">
+          <button class="btn text-light">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
